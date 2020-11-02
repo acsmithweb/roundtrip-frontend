@@ -46,6 +46,7 @@ Using what I know of automated testing here is a list of what I would be looking
 - Add error functionality with the application as is null values can be passed through which is not ideal.
 
 **Closing**
+
 As stated above I normally do not dive head first into feature work as I would normally write the tests for it first. However I felt that given the limited time I would have been unable to learn the testing framework and get feature work completed. Given more time I would have added in jquery as well as cleaned up the code and keep things a consistent format such as the id in master_plan_form.js on line 96. I also recognize that my function names are snake case and should probably be in camel case to match react standards. I also would have put a much bigger focus on ensuring error handling would be in place. I am also not super familiar with what libraries are commonly used in conjunction with react so given more time that would have also looked into those possibilities.
 
 Although there is not much to it the following link has been my application that I have been using to learn React which utilizes a currently small ruby on rails api backend for it's information.
