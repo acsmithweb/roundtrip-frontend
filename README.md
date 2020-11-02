@@ -6,6 +6,7 @@ The bulk of the application is located within master_plan_form.js where it calls
 As noted below bootstrap-react library was used to provide nice looking and easy to use elements.
 
 **Testing**
+
 Normally when working through tasks I will work on the automated tests first. However I do not have any familiarity with testing react components. Given more time I know I would have been able to write up those tests however I figured my time was best spent focusing on the features or else there would have been nothing to actually test.
 Using what I know of automated testing here is a list of what I would be looking to test.
 - Ensure all elements are present labeled and properly populated with given data.
@@ -18,13 +19,16 @@ Using what I know of automated testing here is a list of what I would be looking
 - Javascript tests for the api calls.
 
 **Improvements**
+
 *styling*
+
 - I used bootstrap react for simple and easy styling however the elements do need some tweaking
   - space between the buttons
   - better spacing between labels and input boxes
 - Better looking alert messages
 
 *architecture*
+
 - Ideally I would have separated the api based on what endpoints they are utilizing
   - due to lack of time I was unable to do this
   - I also think that there could be a cleaner way of setting up the api calls such as passing in the type of call you want to make (POST, DELETE, etc..) as an argument along with the required parameters.
@@ -32,10 +36,12 @@ Using what I know of automated testing here is a list of what I would be looking
 - I wrote the form with the intention of keeping it flexible. Although I did not have time setup the component to take a prop for the id this would allow the form to appropriately populate when clicked from a list of master plans.
 
 *Code Quality*
+
 - I have not had the opportunity to work with react in a professional setting so my conventions for component names, function names, and variable names certainly need to be revisited.
 - Jquery is a possible candidate to clean up some of the code and make cleaner api calls
 
 *Features*
+
 - I would have liked to implement better functioning alert messages that also displayed error handling for example if the api endpoint was down there should be some sort of indication saying that the call had failed.
 - Add error functionality with the application as is null values can be passed through which is not ideal.
 
