@@ -1,12 +1,11 @@
 ### Write up and notes
-** Write Up **
 This application is a simple react application used for servicing an API backend that handles mapping and organizing insurance plans. Thanks to the JSON server this front end can easily be directed to a proper api which as long as it meets the same documentation will work the same.
 
 The bulk of the application is located within master_plan_form.js where it calls javascript in api_facade.js to get the information needed to either create or display the corresponding information.
 
 As noted below bootstrap-react library was used to provide nice looking and easy to use elements.
 
-** Testing **
+**Testing**
 Normally when working through tasks I will work on the automated tests first. However I do not have any familiarity with testing react components. Given more time I know I would have been able to write up those tests however I figured my time was best spent focusing on the features or else there would have been nothing to actually test.
 Using what I know of automated testing here is a list of what I would be looking to test.
 - Ensure all elements are present labeled and properly populated with given data.
@@ -18,7 +17,7 @@ Using what I know of automated testing here is a list of what I would be looking
 - Although there is no indication testing for invalid parameters to an api call would also be useful
 - Javascript tests for the api calls.
 
-** Improvements **
+**Improvements**
 *styling*
 - I used bootstrap react for simple and easy styling however the elements do need some tweaking
   - space between the buttons
@@ -40,8 +39,8 @@ Using what I know of automated testing here is a list of what I would be looking
 - I would have liked to implement better functioning alert messages that also displayed error handling for example if the api endpoint was down there should be some sort of indication saying that the call had failed.
 - Add error functionality with the application as is null values can be passed through which is not ideal.
 
-** Closing **
+**Closing**
 As stated above I normally do not dive head first into feature work as I would normally write the tests for it first. However I felt that given the limited time I would have been unable to learn the testing framework and get feature work completed. Given more time I would have added in jquery as well as cleaned up the code and keep things a consistent format such as the id in master_plan_form.js on line 96. I also recognize that my function names are snake case and should probably be in camel case to match react standards. I also would have put a much bigger focus on ensuring error handling would be in place. I am also not super familiar with what libraries are commonly used in conjunction with react so given more time that would have also looked into those possibilities.
 
-Although there is not much to it the following link has been my application that I have been using to learn React.
+Although there is not much to it the following link has been my application that I have been using to learn React which utilizes a currently small ruby on rails api backend for it's information.
 - https://github.com/acsmithweb/campaign_manager_react
