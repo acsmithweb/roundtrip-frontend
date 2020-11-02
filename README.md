@@ -7,7 +7,7 @@ As noted below bootstrap-react library was used to provide nice looking and easy
 
 **Testing**
 
-Normally when working through tasks I will work on the automated tests first. However I do not have any familiarity with testing react components. Given more time I know I would have been able to write up those tests however I figured my time was best spent focusing on the features or else there would have been nothing to actually test.
+Normally when working through tasks I will work on the automated tests first. However I do not have any familiarity with testing react components and the corresponding framework. Given more time I know I would have been able to write up those tests however I figured my time was best spent focusing on the features or else there would have been nothing to actually test.
 Using what I know of automated testing here is a list of what I would be looking to test.
 - Ensure all elements are present labeled and properly populated with given data.
 - Ensure the match button loads disabled and can be enabled and re disabled via the Closest Match Select.
